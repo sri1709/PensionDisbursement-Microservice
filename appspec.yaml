@@ -6,5 +6,5 @@ Resources:
         TaskDefinition: "arn:aws:ecs:us-east-1:156962844638:task-definition/PMS-877629-PensionDisbursement-Microservice:5"
         LoadBalancerInfo:
           ContainerName: "PensionDisbursement-Microservice-container-877629"
-          ContainerPort: "80"
+          ContainerPort: "8300"
         PlatformVersion: "LATEST"
